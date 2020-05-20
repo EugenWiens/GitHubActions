@@ -15,8 +15,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: configure
-      run: ./configure
+    - name: echo
+      run: echo "uname: $(uname -a)"
     - name: make
       run: make
     - name: make check
