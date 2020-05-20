@@ -16,5 +16,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: echo
-      run: echo "uname: $(uname -a)"
+      run: echo "uname $(uname -a)"
     
